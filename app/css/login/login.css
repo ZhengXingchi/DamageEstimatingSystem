@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.wrapper{
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.error,.sli{
+    color: red;
+}
+.sli{
+    display:none;
+}
