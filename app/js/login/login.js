@@ -1,8 +1,8 @@
 var service=require('../service.js');
-var angular=require('angular');
-require('jquery')
+const angular=require("angular")
+
 require('../encrypt')
-require('bootstrap')
+
 require("../../css/login/login.css")
 require("../../css/main.css")
 

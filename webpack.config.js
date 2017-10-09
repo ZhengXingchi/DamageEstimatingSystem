@@ -6,7 +6,7 @@ module.exports={
 	devtool:"eval-source-map",
 	entry:{
 		login:"./app/js/login/login.js",
-    lgi_phone:"./app/js/login/login.js"
+    lgi_phone:"./app/js/login/lgi_phone.js"
 
 	},
 	output:{

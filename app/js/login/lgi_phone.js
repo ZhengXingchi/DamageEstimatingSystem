@@ -1,6 +1,4 @@
-require('jquery')
-require('bootstrap')
-var angular=require('angular')
+const angular=require("angular")
 var service=require('../service.js');
 require("../../css/login/lgi_phone.css")
 require("../../css/main.css")
