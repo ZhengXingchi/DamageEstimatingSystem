@@ -66,11 +66,16 @@ module.exports={
           inject:'head',
           chunks:['login']
       }),
-        new HtmlWebpackPlugin({
+      new HtmlWebpackPlugin({
           filename:"../login/lgi_phone.html",
           template:path.resolve(__dirname, './app/login/lgi_phone.ejs'),
           inject:'head',
           chunks:['lgi_phone']
+      }),
+      new webpack.optimize.CommonsChunkPlugin({
+        name: 'common',      
+        filename: '[name].js',
+        minChunks: 2,
       }),
       new ExtractTextPlugin('[name].css'),
       new webpack.ProvidePlugin({
