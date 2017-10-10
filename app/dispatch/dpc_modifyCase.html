@@ -709,8 +709,8 @@
 <script src="../js/datetimepicker.js"></script>
 <script src="../js/datetimepicker.templates.js"></script>
 <script>
-    var app = angular.module("app",['MyService','ui.bootstrap.datetimepicker']);
-    app.controller('ctrl', ['$scope','$http','urlService', '$timeout','$parse','$filter','$window',function($scope,$http,urlService,$timeout,$parse,$filter,$window){
+    var app = angular.module("app",['ui.bootstrap.datetimepicker']);
+    app.controller('ctrl', ['$scope','$http', '$timeout','$parse','$filter','$window',function($scope,$http,$timeout,$parse,$filter,$window){
         moment.locale('zh-cn');
         $scope.addCase={}
         $scope.addCase.delegate_org={};
